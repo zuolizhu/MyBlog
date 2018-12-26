@@ -4,6 +4,8 @@ date: 2018-12-25T19:30:55-05:00
 ---
 
 
+![me](/images/me/me.jpg)
+
 
 For anyone who found this website and now reading this paragraph, Hi! Nice to meet you!
 

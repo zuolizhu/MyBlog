@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on Zuoli Zhu</title>
+    <link>https://zuolizhu.io/tags/design/</link>
+    <description>Recent content in Design on Zuoli Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Dec 2018 22:12:09 -0500</lastBuildDate>
+    
+	<atom:link href="https://zuolizhu.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Logo Design</title>
+      <link>https://zuolizhu.io/2018/logo_design/</link>
+      <pubDate>Tue, 25 Dec 2018 22:12:09 -0500</pubDate>
+      
+      <guid>https://zuolizhu.io/2018/logo_design/</guid>
+      <description>Some LOGOs I designed for fun.
+More comes latter &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Prototype Design</title>
+      <link>https://zuolizhu.io/2018/prototype_design/</link>
+      <pubDate>Tue, 25 Dec 2018 22:01:30 -0500</pubDate>
+      
+      <guid>https://zuolizhu.io/2018/prototype_design/</guid>
+      <description>Prototype(wireframe) design for my school project. Full working project on my github: Project Link</description>
+    </item>
+    
+    <item>
+      <title>Old Driver Brand Design</title>
+      <link>https://zuolizhu.io/2018/old_driver_brand/</link>
+      <pubDate>Tue, 25 Dec 2018 21:48:03 -0500</pubDate>
+      
+      <guid>https://zuolizhu.io/2018/old_driver_brand/</guid>
+      <description>This LOGO was designed in 2015 for an international students&amp;rsquo; company called Old Driver.</description>
+    </item>
+    
+    <item>
+      <title>Product Design for Glitter</title>
+      <link>https://zuolizhu.io/2018/product-design-for-glitter/</link>
+      <pubDate>Tue, 25 Dec 2018 19:30:55 -0500</pubDate>
+      
+      <guid>https://zuolizhu.io/2018/product-design-for-glitter/</guid>
+      <description>The product photo below are made in this summer. I took these pictures in a white box and made these product photo using Photoshop.
+By the time I update this post, the product is still selling on amazon. AmazonLink</description>
+    </item>
+    
+  </channel>
+</rss>
