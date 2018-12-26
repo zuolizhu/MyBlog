@@ -35,7 +35,7 @@ googleAnalytics = ""
 [params]
     since = 2018
     author = "Zuoli Zhu"
-    avatar = "/images/me/avatar.jpeg"
+    avatar = "/images/me/avatar.jpg"
     subtitle = "Writing code, drawing LOGO, taking photo."
     cdn_url = ""
     home_mode = ""
