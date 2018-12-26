@@ -1,5 +1,5 @@
 ---
-title: "Product Design for Glitter"
+title: "Product Design for Wellmade Glitter"
 author: "Zuoli Zhu"
 tags: ["Design"]
 categories: ["Graphical Design"]

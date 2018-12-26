@@ -6,8 +6,48 @@
     <description>Recent content in Zuoli Zhu on Zuoli Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Dec 2018 22:12:09 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 25 Dec 2018 22:40:31 -0500</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Multile official website</title>
+      <link>https://zuolizhu.io/2018/shopify_project/</link>
+      <pubDate>Tue, 25 Dec 2018 22:40:31 -0500</pubDate>
+      
+      <guid>https://zuolizhu.io/2018/shopify_project/</guid>
+      <description>&lt;p&gt;This website was built for a company located in New Jersey called Multi Tile.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.multile.com/&#34;&gt;Company Website Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Meteor Projects</title>
+      <link>https://zuolizhu.io/2018/meteor_projects/</link>
+      <pubDate>Tue, 25 Dec 2018 22:29:45 -0500</pubDate>
+      
+      <guid>https://zuolizhu.io/2018/meteor_projects/</guid>
+      <description>
+
+&lt;p&gt;These two projects were made using fullstack framework Meteor as backend, and React as front end. Hosted on Heroku.&lt;/p&gt;
+
+&lt;h2 id=&#34;mynotes&#34;&gt;MyNotes&lt;/h2&gt;
+
+&lt;p&gt;Online notebook with simply design &lt;a href=&#34;http://zzl-mynote.herokuapp.com/&#34;&gt;DemoLink&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/meteor/appLoginPage.png&#34; alt=&#34;loginpage&#34; /&gt;
+&lt;img src=&#34;https://zuolizhu.io/images/dev/meteor/myNotesMainPage.png&#34; alt=&#34;MyNotesAppMainPage&#34; /&gt;
+&lt;img src=&#34;https://zuolizhu.io/images/dev/meteor/myNotesMainPage2.png&#34; alt=&#34;MyNotesAppMainPage2&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;mylinks&#34;&gt;MyLinks&lt;/h2&gt;
+
+&lt;p&gt;Online bookmark manager &lt;a href=&#34;https://zzl-shortlink.herokuapp.com/&#34;&gt;DemoLink&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/meteor/myLinkScreenShot.png&#34; alt=&#34;myLinks&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/zuolizhu/MeteorProjects&#34;&gt;Full project github link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Logo Design</title>
@@ -78,11 +118,11 @@
     </item>
     
     <item>
-      <title>Product Design for Glitter</title>
-      <link>https://zuolizhu.io/2018/product-design-for-glitter/</link>
+      <title>Product Design for Wellmade Glitter</title>
+      <link>https://zuolizhu.io/2018/product_design_for_glitter/</link>
       <pubDate>Tue, 25 Dec 2018 19:30:55 -0500</pubDate>
       
-      <guid>https://zuolizhu.io/2018/product-design-for-glitter/</guid>
+      <guid>https://zuolizhu.io/2018/product_design_for_glitter/</guid>
       <description>&lt;p&gt;The product photo below are made in this summer. I took these pictures in a white box and made these product photo using Photoshop.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/graphicaldesign/glitter1.jpg&#34; alt=&#34;glitter1&#34; /&gt;

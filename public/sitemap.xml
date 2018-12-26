@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
+      <loc>https://zuolizhu.io/2018/shopify_project/</loc>
+      
+      <lastmod>2018-12-25T22:40:31-05:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zuolizhu.io/2018/meteor_projects/</loc>
+      
+      <lastmod>2018-12-25T22:29:45-05:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>https://zuolizhu.io/2018/logo_design/</loc>
       
       <lastmod>2018-12-25T22:12:09-05:00</lastmod>
@@ -43,7 +63,7 @@
     </url>
   
     <url>
-      <loc>https://zuolizhu.io/2018/product-design-for-glitter/</loc>
+      <loc>https://zuolizhu.io/2018/product_design_for_glitter/</loc>
       
       <lastmod>2018-12-25T19:30:55-05:00</lastmod>
       
@@ -54,6 +74,18 @@
   
     <url>
       <loc>https://zuolizhu.io/categories/</loc>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zuolizhu.io/tags/cms/</loc>
+      
+      <lastmod>2018-12-25T22:40:31-05:00</lastmod>
       
       
       
@@ -75,6 +107,18 @@
     </url>
   
     <url>
+      <loc>https://zuolizhu.io/tags/fullstack/</loc>
+      
+      <lastmod>2018-12-25T22:29:45-05:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
       <loc>https://zuolizhu.io/categories/graphical-design/</loc>
       
       <lastmod>2018-12-25T22:12:09-05:00</lastmod>
@@ -87,9 +131,69 @@
     </url>
   
     <url>
+      <loc>https://zuolizhu.io/tags/javascript/</loc>
+      
+      <lastmod>2018-12-25T22:29:45-05:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zuolizhu.io/tags/meteor/</loc>
+      
+      <lastmod>2018-12-25T22:29:45-05:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
       <loc>https://zuolizhu.io/posts/</loc>
       
-      <lastmod>2018-12-25T22:12:09-05:00</lastmod>
+      <lastmod>2018-12-25T22:40:31-05:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zuolizhu.io/tags/react/</loc>
+      
+      <lastmod>2018-12-25T22:29:45-05:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zuolizhu.io/tags/shopify/</loc>
+      
+      <lastmod>2018-12-25T22:40:31-05:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zuolizhu.io/categories/software-development/</loc>
+      
+      <lastmod>2018-12-25T22:29:45-05:00</lastmod>
       
       
       
@@ -101,7 +205,31 @@
     <url>
       <loc>https://zuolizhu.io/tags/</loc>
       
-      <lastmod>2018-12-25T22:12:09-05:00</lastmod>
+      <lastmod>2018-12-25T22:40:31-05:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zuolizhu.io/tags/web/</loc>
+      
+      <lastmod>2018-12-25T22:40:31-05:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zuolizhu.io/categories/web-development/</loc>
+      
+      <lastmod>2018-12-25T22:40:31-05:00</lastmod>
       
       
       
@@ -113,7 +241,7 @@
     <url>
       <loc>https://zuolizhu.io/</loc>
       
-      <lastmod>2018-12-25T22:12:09-05:00</lastmod>
+      <lastmod>2018-12-25T22:40:31-05:00</lastmod>
       
       
       

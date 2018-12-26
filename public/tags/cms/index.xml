@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cms on Zuoli Zhu</title>
+    <link>https://zuolizhu.io/tags/cms/</link>
+    <description>Recent content in Cms on Zuoli Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Dec 2018 22:40:31 -0500</lastBuildDate>
+    
+	<atom:link href="https://zuolizhu.io/tags/cms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Multile official website</title>
+      <link>https://zuolizhu.io/2018/shopify_project/</link>
+      <pubDate>Tue, 25 Dec 2018 22:40:31 -0500</pubDate>
+      
+      <guid>https://zuolizhu.io/2018/shopify_project/</guid>
+      <description>This website was built for a company located in New Jersey called Multi Tile.
+Company Website Link</description>
+    </item>
+    
+  </channel>
+</rss>
