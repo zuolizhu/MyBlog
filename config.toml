@@ -49,6 +49,6 @@ googleAnalytics = ""
     baiduAnalytics = ""
 
 [params.social]
-    GitHub = "https://github.com/zuolizhu"
-    Twitter = "https://twitter.com/zzzslipper"
+    GitHub = "zuolizhu"
+    Twitter = "zzzslipper"
     Email   = "zzhu9@albany.edu"
