@@ -1,0 +1,54 @@
+baseURL = "https://zuolizhu.io/"
+languageCode = "en-us"
+title = "Zuoli Zhu"
+theme = "LeaveIt"
+
+paginate = 12
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+
+[Permalinks]
+ posts = "/:year/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[params]
+    since = 2018
+    author = "Zuoli Zhu"
+    avatar = "/images/me/avatar.jpeg"
+    subtitle = "Writing code, drawing LOGO, taking photo."
+    cdn_url = ""
+    home_mode = ""
+
+    google_verification = ""
+   
+    description = "A lazy guy's blog" # site description
+    keywords = "" # site keywords
+
+    beian = ""
+    baiduAnalytics = ""
+
+[params.social]
+    GitHub = "https://github.com/zuolizhu"
+    Twitter = "https://twitter.com/zzzslipper"
+    Email   = "zzhu9@albany.edu"
