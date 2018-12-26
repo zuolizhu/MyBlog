@@ -9,9 +9,9 @@
   <meta name="description" content="A lazy guy&#39;s blog">
   
   
-  <link rel="prev" href="https://zuolizhu.io/2018/meteor_projects/" />
-  <link rel="next" href="https://zuolizhu.io/2018/event_tickets_manager/" />
-  <link rel="canonical" href="https://zuolizhu.io/2018/shopify_project/" />
+  <link rel="prev" href="https://zuolizhu.io/2018/shopify_project/" />
+  <link rel="next" href="https://zuolizhu.io/2018/sports_watch/" />
+  <link rel="canonical" href="https://zuolizhu.io/2018/event_tickets_manager/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           Multile official website | Zuoli Zhu
+           Event Tickets Manager | Zuoli Zhu
        
   </title>
-  <meta name="title" content="Multile official website | Zuoli Zhu">
+  <meta name="title" content="Event Tickets Manager | Zuoli Zhu">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,10 +44,13 @@
          "@id": "https://zuolizhu.io/"
     },
     "articleSection" : "posts",
-    "name" : "Multile official website",
-    "headline" : "Multile official website",
-    "description" : "This website was built for a company located in New Jersey called Multi Tile.
-Company Website Link",
+    "name" : "Event Tickets Manager",
+    "headline" : "Event Tickets Manager",
+    "description" : "This is a team project built with Spring Boot + Thymeleaf + MySQL. HTML theme musica made by Colorlib.
+I am the team leader worked on prototyping, architecture, UI design, framework, and devops. Currently this project is offline.
+To run this app on your local machine, please config the application.properties file to match your setting:
+spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect spring.jpa.hibernate.ddl-auto=create-drop spring.datasource.url=jdbc:mysql://localhost:3306/${dbname} spring.datasource.username=${DB_USER} spring.datasource.password=${DB_PASSWD}  User configuration is located in UsersLoader.java:
+// Add user role Role userRole = new Role(&quot;ROLE_USER&quot;); roleRepo.",
     "inLanguage" : "en-us",
     "author" : "Zuoli Zhu",
     "creator" : "Zuoli Zhu",
@@ -55,11 +58,11 @@ Company Website Link",
     "accountablePerson" : "Zuoli Zhu",
     "copyrightHolder" : "Zuoli Zhu",
     "copyrightYear" : "2018",
-    "datePublished": "2018-12-25 22:40:31 -0500 EST",
-    "dateModified" : "2018-12-25 22:40:31 -0500 EST",
-    "url" : "https://zuolizhu.io/2018/shopify_project/",
-    "wordCount" : "17",
-    "keywords" : [ "Web","Shopify","CMS", "Zuoli Zhu"]
+    "datePublished": "2018-12-25 22:48:28 -0500 EST",
+    "dateModified" : "2018-12-25 22:48:28 -0500 EST",
+    "url" : "https://zuolizhu.io/2018/event_tickets_manager/",
+    "wordCount" : "96",
+    "keywords" : [ "Java","Spring Boot","Thymeleaf","MySQL", "Zuoli Zhu"]
 }
 </script>
 
@@ -117,7 +120,7 @@ Company Website Link",
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Multile official website</h1>
+        <h1 class="post-title" itemprop="name headline">Event Tickets Manager</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://zuolizhu.io/" rel="author">Zuoli Zhu</a> with ♥ 
                 <span class="post-time">
@@ -126,7 +129,7 @@ Company Website Link",
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://zuolizhu.io/categories/web-development/"> Web Development </a>
+                        <a href="https://zuolizhu.io/categories/software-development/"> Software Development </a>
                         
                 </span>
         </div>
@@ -134,6 +137,8 @@ Company Website Link",
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -147,9 +152,40 @@ Company Website Link",
           
           
 
-          <p>This website was built for a company located in New Jersey called Multi Tile.</p>
+          
 
-<p><a href="https://www.multile.com/">Company Website Link</a></p>
+<p>This is a team project built with Spring Boot + Thymeleaf + MySQL. HTML theme musica made by <a href="https://colorlib.com/">Colorlib</a>.</p>
+
+<p>I am the team leader worked on prototyping, architecture, UI design, framework, and devops. Currently this project is offline.</p>
+
+<p>To run this app on your local machine, please config the <code>application.properties</code> file to match your setting:</p>
+
+<pre><code class="language-javascript">spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.datasource.url=jdbc:mysql://localhost:3306/${dbname}
+spring.datasource.username=${DB_USER}
+spring.datasource.password=${DB_PASSWD}
+</code></pre>
+
+<p>User configuration is located in <code>UsersLoader.java</code>:</p>
+
+<pre><code class="language-java">// Add user role
+Role userRole = new Role(&quot;ROLE_USER&quot;);
+roleRepo.save(userRole);
+// Add an user
+User customer1 = new User(&quot;customer1@gmail.com&quot;, secret, true);
+customer1.addRole(userRole);
+userRepo.save(customer);
+</code></pre>
+
+<h3 id="screenshots">Screenshots:</h3>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/dev/springboot/eventticketsmanager/homepage.png" alt="homepage" class="lazyload"><figcaption class="image-caption">homepage</figcaption></figure>
+<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/dev/springboot/eventticketsmanager/detailpage.png" alt="homepage" class="lazyload"><figcaption class="image-caption">homepage</figcaption></figure></p>
+
+<h3 id="full-project-link">Full Project Link:</h3>
+
+<p><a href="https://zuolizhu.io/2018/event_tickets_manager/">Event Tickets Manager</a></p>
 
     </div>
 
@@ -164,7 +200,7 @@ Company Website Link",
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://zuolizhu.io/2018/shopify_project/>https://zuolizhu.io/2018/shopify_project/</span>
+                    <a href=https://zuolizhu.io/2018/event_tickets_manager/>https://zuolizhu.io/2018/event_tickets_manager/</span>
             </p>
             
             
@@ -176,14 +212,17 @@ Company Website Link",
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://zuolizhu.io/tags/web/">
-                    #Web</a></span>
+            <span class="tag"><a href="https://zuolizhu.io/tags/java/">
+                    #Java</a></span>
             
-            <span class="tag"><a href="https://zuolizhu.io/tags/shopify/">
-                    #Shopify</a></span>
+            <span class="tag"><a href="https://zuolizhu.io/tags/spring-boot/">
+                    #Spring Boot</a></span>
             
-            <span class="tag"><a href="https://zuolizhu.io/tags/cms/">
-                    #CMS</a></span>
+            <span class="tag"><a href="https://zuolizhu.io/tags/thymeleaf/">
+                    #Thymeleaf</a></span>
+            
+            <span class="tag"><a href="https://zuolizhu.io/tags/mysql/">
+                    #MySQL</a></span>
             
             </section>
         
@@ -195,10 +234,10 @@ Company Website Link",
 
     <div class="post-nav">
         
-        <a href="https://zuolizhu.io/2018/meteor_projects/" class="prev" rel="prev" title="Meteor Projects"><i class="iconfont icon-left"></i>&nbsp;Meteor Projects</a>
+        <a href="https://zuolizhu.io/2018/shopify_project/" class="prev" rel="prev" title="Multile official website"><i class="iconfont icon-left"></i>&nbsp;Multile official website</a>
          
         
-        <a href="https://zuolizhu.io/2018/event_tickets_manager/" class="next" rel="next" title="Event Tickets Manager">Event Tickets Manager&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="https://zuolizhu.io/2018/sports_watch/" class="next" rel="next" title="Sports Watch">Sports Watch&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -240,8 +279,9 @@ Company Website Link",
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 

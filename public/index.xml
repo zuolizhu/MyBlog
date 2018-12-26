@@ -6,8 +6,107 @@
     <description>Recent content in Zuoli Zhu on Zuoli Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Dec 2018 22:40:31 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 25 Dec 2018 22:59:35 -0500</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sports Watch</title>
+      <link>https://zuolizhu.io/2018/sports_watch/</link>
+      <pubDate>Tue, 25 Dec 2018 22:59:35 -0500</pubDate>
+      
+      <guid>https://zuolizhu.io/2018/sports_watch/</guid>
+      <description>
+
+&lt;p&gt;This is a web application built with Spring Boot Thymeleaf and MySQL.&lt;/p&gt;
+
+&lt;p&gt;To run this project on your localmachine, please config the &lt;code&gt;application.properties&lt;/code&gt; file to match your setting:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.datasource.url=jdbc:mysql://localhost:3306/${dbname}
+spring.datasource.username=${DB_USER}
+spring.datasource.password=${DB_PASSWD}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This project used Facebook Login API&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;FB.init({
+    appId      : &#39;yourappid&#39;,
+    cookie     : true,
+    xfbml      : true,
+    version    : &#39;v3.2&#39;
+    });
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The API server I used for this project is &lt;a href=&#34;https://www.mysportsfeeds.com/&#34;&gt;mysportsfeed&lt;/a&gt;, make sure you have the right setting to fetch the corresponding data:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;// API endpoint
+String url = &amp;quot;https://api.mysportsfeeds.com/v1.2/pull/nba/2018-2019-regular/team_gamelogs.json?team=&amp;quot; + teamID;
+// API access config
+String encoding = Base64.getEncoder().encodeToString(&amp;quot;{your api user name}:{your api password}&amp;quot;.getBytes());
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;uml-diagram&#34;&gt;UML Diagram&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/springboot/sportswatch/umldiagram.png&#34; alt=&#34;UML Diagram&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/springboot/sportswatch/homepage.png&#34; alt=&#34;Home Page&#34; /&gt;
+&lt;img src=&#34;https://zuolizhu.io/images/dev/springboot/sportswatch/teamlist.png&#34; alt=&#34;Team List&#34; /&gt;
+&lt;img src=&#34;https://zuolizhu.io/images/dev/springboot/sportswatch/adminpanel.png&#34; alt=&#34;Admin Panel&#34; /&gt;
+&lt;img src=&#34;https://zuolizhu.io/images/dev/springboot/sportswatch/userdash.png&#34; alt=&#34;User Dashboard&#34; /&gt;
+&lt;img src=&#34;https://zuolizhu.io/images/dev/springboot/sportswatch/facebooklogin.png&#34; alt=&#34;Facebook Login&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;full-project-link&#34;&gt;Full Project Link:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/zuolizhu/SportsWatchWebApp&#34;&gt;Sports Watch&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Event Tickets Manager</title>
+      <link>https://zuolizhu.io/2018/event_tickets_manager/</link>
+      <pubDate>Tue, 25 Dec 2018 22:48:28 -0500</pubDate>
+      
+      <guid>https://zuolizhu.io/2018/event_tickets_manager/</guid>
+      <description>
+
+&lt;p&gt;This is a team project built with Spring Boot + Thymeleaf + MySQL. HTML theme musica made by &lt;a href=&#34;https://colorlib.com/&#34;&gt;Colorlib&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am the team leader worked on prototyping, architecture, UI design, framework, and devops. Currently this project is offline.&lt;/p&gt;
+
+&lt;p&gt;To run this app on your local machine, please config the &lt;code&gt;application.properties&lt;/code&gt; file to match your setting:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.datasource.url=jdbc:mysql://localhost:3306/${dbname}
+spring.datasource.username=${DB_USER}
+spring.datasource.password=${DB_PASSWD}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;User configuration is located in &lt;code&gt;UsersLoader.java&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;// Add user role
+Role userRole = new Role(&amp;quot;ROLE_USER&amp;quot;);
+roleRepo.save(userRole);
+// Add an user
+User customer1 = new User(&amp;quot;customer1@gmail.com&amp;quot;, secret, true);
+customer1.addRole(userRole);
+userRepo.save(customer);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;screenshots&#34;&gt;Screenshots:&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/springboot/eventticketsmanager/homepage.png&#34; alt=&#34;homepage&#34; /&gt;
+&lt;img src=&#34;https://zuolizhu.io/images/dev/springboot/eventticketsmanager/detailpage.png&#34; alt=&#34;homepage&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;full-project-link&#34;&gt;Full Project Link:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://zuolizhu.io/2018/event_tickets_manager/&#34;&gt;Event Tickets Manager&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Multile official website</title>
@@ -101,7 +200,11 @@
       <pubDate>Tue, 25 Dec 2018 19:30:55 -0500</pubDate>
       
       <guid>https://zuolizhu.io/about/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/me/me.jpg&#34; alt=&#34;me&#34; /&gt;&lt;/p&gt;
+      <description>
+
+&lt;h3 id=&#34;me&#34;&gt;Me&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/me/me.jpg&#34; alt=&#34;me&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;For anyone who found this website and now reading this paragraph, Hi! Nice to meet you!&lt;/p&gt;
 

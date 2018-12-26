@@ -6,10 +6,35 @@
     <description>Recent content in Posts on Zuoli Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Dec 2018 22:40:31 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 25 Dec 2018 22:59:35 -0500</lastBuildDate>
     
 	<atom:link href="https://zuolizhu.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sports Watch</title>
+      <link>https://zuolizhu.io/2018/sports_watch/</link>
+      <pubDate>Tue, 25 Dec 2018 22:59:35 -0500</pubDate>
+      
+      <guid>https://zuolizhu.io/2018/sports_watch/</guid>
+      <description>This is a web application built with Spring Boot Thymeleaf and MySQL.
+To run this project on your localmachine, please config the application.properties file to match your setting:
+spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect spring.jpa.hibernate.ddl-auto=create-drop spring.datasource.url=jdbc:mysql://localhost:3306/${dbname} spring.datasource.username=${DB_USER} spring.datasource.password=${DB_PASSWD}  This project used Facebook Login API
+FB.init({ appId : &#39;yourappid&#39;, cookie : true, xfbml : true, version : &#39;v3.2&#39; });  The API server I used for this project is mysportsfeed, make sure you have the right setting to fetch the corresponding data:</description>
+    </item>
+    
+    <item>
+      <title>Event Tickets Manager</title>
+      <link>https://zuolizhu.io/2018/event_tickets_manager/</link>
+      <pubDate>Tue, 25 Dec 2018 22:48:28 -0500</pubDate>
+      
+      <guid>https://zuolizhu.io/2018/event_tickets_manager/</guid>
+      <description>This is a team project built with Spring Boot + Thymeleaf + MySQL. HTML theme musica made by Colorlib.
+I am the team leader worked on prototyping, architecture, UI design, framework, and devops. Currently this project is offline.
+To run this app on your local machine, please config the application.properties file to match your setting:
+spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect spring.jpa.hibernate.ddl-auto=create-drop spring.datasource.url=jdbc:mysql://localhost:3306/${dbname} spring.datasource.username=${DB_USER} spring.datasource.password=${DB_PASSWD}  User configuration is located in UsersLoader.java:
+// Add user role Role userRole = new Role(&amp;quot;ROLE_USER&amp;quot;); roleRepo.</description>
+    </item>
     
     <item>
       <title>Multile official website</title>

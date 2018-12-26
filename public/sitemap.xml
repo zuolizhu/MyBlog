@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
+      <loc>https://zuolizhu.io/2018/sports_watch/</loc>
+      
+      <lastmod>2018-12-25T22:59:35-05:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zuolizhu.io/2018/event_tickets_manager/</loc>
+      
+      <lastmod>2018-12-25T22:48:28-05:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>https://zuolizhu.io/2018/shopify_project/</loc>
       
       <lastmod>2018-12-25T22:40:31-05:00</lastmod>
@@ -131,6 +151,18 @@
     </url>
   
     <url>
+      <loc>https://zuolizhu.io/tags/java/</loc>
+      
+      <lastmod>2018-12-25T22:59:35-05:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
       <loc>https://zuolizhu.io/tags/javascript/</loc>
       
       <lastmod>2018-12-25T22:29:45-05:00</lastmod>
@@ -155,9 +187,21 @@
     </url>
   
     <url>
+      <loc>https://zuolizhu.io/tags/mysql/</loc>
+      
+      <lastmod>2018-12-25T22:59:35-05:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
       <loc>https://zuolizhu.io/posts/</loc>
       
-      <lastmod>2018-12-25T22:40:31-05:00</lastmod>
+      <lastmod>2018-12-25T22:59:35-05:00</lastmod>
       
       
       
@@ -193,7 +237,19 @@
     <url>
       <loc>https://zuolizhu.io/categories/software-development/</loc>
       
-      <lastmod>2018-12-25T22:29:45-05:00</lastmod>
+      <lastmod>2018-12-25T22:59:35-05:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zuolizhu.io/tags/spring-boot/</loc>
+      
+      <lastmod>2018-12-25T22:59:35-05:00</lastmod>
       
       
       
@@ -206,6 +262,18 @@
       <loc>https://zuolizhu.io/tags/</loc>
       
       <lastmod>2018-12-25T22:40:31-05:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zuolizhu.io/tags/thymeleaf/</loc>
+      
+      <lastmod>2018-12-25T22:59:35-05:00</lastmod>
       
       
       
@@ -241,7 +309,7 @@
     <url>
       <loc>https://zuolizhu.io/</loc>
       
-      <lastmod>2018-12-25T22:40:31-05:00</lastmod>
+      <lastmod>2018-12-25T22:59:35-05:00</lastmod>
       
       
       

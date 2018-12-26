@@ -34,3 +34,8 @@ userRepo.save(customer);
 ### Screenshots:
 ![homepage](/images/dev/springboot/eventticketsmanager/homepage.png)
 ![homepage](/images/dev/springboot/eventticketsmanager/detailpage.png)
+
+
+### Full Project Link:
+
+[Event Tickets Manager](https://zuolizhu.io/2018/event_tickets_manager/)

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software Development on Zuoli Zhu</title>
-    <link>https://zuolizhu.io/categories/software-development/</link>
-    <description>Recent content in Software Development on Zuoli Zhu</description>
+    <title>Spring Boot on Zuoli Zhu</title>
+    <link>https://zuolizhu.io/tags/spring-boot/</link>
+    <description>Recent content in Spring Boot on Zuoli Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 25 Dec 2018 22:59:35 -0500</lastBuildDate>
     
-	<atom:link href="https://zuolizhu.io/categories/software-development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zuolizhu.io/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -34,18 +34,6 @@ I am the team leader worked on prototyping, architecture, UI design, framework, 
 To run this app on your local machine, please config the application.properties file to match your setting:
 spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect spring.jpa.hibernate.ddl-auto=create-drop spring.datasource.url=jdbc:mysql://localhost:3306/${dbname} spring.datasource.username=${DB_USER} spring.datasource.password=${DB_PASSWD}  User configuration is located in UsersLoader.java:
 // Add user role Role userRole = new Role(&amp;quot;ROLE_USER&amp;quot;); roleRepo.</description>
-    </item>
-    
-    <item>
-      <title>Meteor Projects</title>
-      <link>https://zuolizhu.io/2018/meteor_projects/</link>
-      <pubDate>Tue, 25 Dec 2018 22:29:45 -0500</pubDate>
-      
-      <guid>https://zuolizhu.io/2018/meteor_projects/</guid>
-      <description>These two projects were made using fullstack framework Meteor as backend, and React as front end. Hosted on Heroku.
-MyNotes Online notebook with simply design DemoLink
-MyLinks Online bookmark manager DemoLink
-Full project github link</description>
     </item>
     
   </channel>
