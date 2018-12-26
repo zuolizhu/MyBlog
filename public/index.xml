@@ -116,6 +116,8 @@ userRepo.save(customer);
       <guid>https://zuolizhu.io/2018/shopify_project/</guid>
       <description>&lt;p&gt;This website was built for a company located in New Jersey called Multi Tile.&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/multile/multile.png&#34; alt=&#34;multile homepage&#34; /&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://www.multile.com/&#34;&gt;Company Website Link&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
