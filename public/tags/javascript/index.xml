@@ -18,7 +18,7 @@
       
       <guid>https://zuolizhu.io/2019/face_detection_webapp/</guid>
       <description>A simple web application using the Clarifai API to detect faces on a giving image url. Using the Express.js backend server to communicate with the PostgreSQL database.
-Screenshots: Full Project Code: Front end github link
+Screenshots: GIF demo: Full Project Code: Front end github link
 Back end github link
 Instruction to run this app To run this web app on your local machine, please make sure the configuration below matches your local setting:
 Create the database with users table and login table, I used PostgreSQL:</description>

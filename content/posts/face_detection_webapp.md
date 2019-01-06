@@ -24,6 +24,12 @@ A simple web application using the [Clarifai API](https://clarifai.com/) to dete
 
 
 
+### GIF demo:
+
+![demo](/images/dev/react/facedetector/appdemo.gif)
+
+
+
 ### Full Project Code:
 
 [Front end github link](https://github.com/zuolizhu/ReactProjects/tree/master/facedetector)

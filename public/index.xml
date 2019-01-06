@@ -31,6 +31,10 @@
 
 &lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/react/facedetector/login.png&#34; alt=&#34;login&#34; /&gt;&lt;/p&gt;
 
+&lt;h3 id=&#34;gif-demo&#34;&gt;GIF demo:&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/react/facedetector/appdemo.gif&#34; alt=&#34;demo&#34; /&gt;&lt;/p&gt;
+
 &lt;h3 id=&#34;full-project-code&#34;&gt;Full Project Code:&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/zuolizhu/ReactProjects/tree/master/facedetector&#34;&gt;Front end github link&lt;/a&gt;&lt;/p&gt;
