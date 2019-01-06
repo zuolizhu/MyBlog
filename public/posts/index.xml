@@ -6,10 +6,23 @@
     <description>Recent content in Posts on Zuoli Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Dec 2018 23:12:20 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jan 2019 22:47:26 -0500</lastBuildDate>
     
 	<atom:link href="https://zuolizhu.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Face Detection Webapp</title>
+      <link>https://zuolizhu.io/2019/face_detection_webapp/</link>
+      <pubDate>Sat, 05 Jan 2019 22:47:26 -0500</pubDate>
+      
+      <guid>https://zuolizhu.io/2019/face_detection_webapp/</guid>
+      <description>A simple web application using the Clarifai API to detect faces on a giving image url. Using the Express.js backend server to communicate with the PostgreSQL database.
+Screenshots: Full Project Code: Front end github link
+Back end github link
+Instruction to run this app To run this web app on your local machine, please make sure the configuration below matches your local setting:
+Create the database with users table and login table, I used PostgreSQL:</description>
+    </item>
     
     <item>
       <title>Shooting Stars</title>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>React on Zuoli Zhu</title>
-    <link>https://zuolizhu.io/tags/react/</link>
-    <description>Recent content in React on Zuoli Zhu</description>
+    <title>Postgresql on Zuoli Zhu</title>
+    <link>https://zuolizhu.io/tags/postgresql/</link>
+    <description>Recent content in Postgresql on Zuoli Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Jan 2019 22:47:26 -0500</lastBuildDate>
     
-	<atom:link href="https://zuolizhu.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zuolizhu.io/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,18 +22,6 @@ Screenshots: Full Project Code: Front end github link
 Back end github link
 Instruction to run this app To run this web app on your local machine, please make sure the configuration below matches your local setting:
 Create the database with users table and login table, I used PostgreSQL:</description>
-    </item>
-    
-    <item>
-      <title>Meteor Projects</title>
-      <link>https://zuolizhu.io/2018/meteor_projects/</link>
-      <pubDate>Tue, 25 Dec 2018 22:29:45 -0500</pubDate>
-      
-      <guid>https://zuolizhu.io/2018/meteor_projects/</guid>
-      <description>These two projects were made using fullstack framework Meteor as backend, and React as front end. Hosted on Heroku.
-MyNotes Online notebook with simply design DemoLink
-MyLinks Online bookmark manager DemoLink
-Full project github link</description>
     </item>
     
   </channel>

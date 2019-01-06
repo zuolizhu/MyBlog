@@ -9,9 +9,9 @@
   <meta name="description" content="A lazy guy&#39;s blog">
   
   
-  <link rel="prev" href="https://zuolizhu.io/2018/sports_watch/" />
-  <link rel="next" href="https://zuolizhu.io/2019/face_detection_webapp/" />
-  <link rel="canonical" href="https://zuolizhu.io/2018/shooting_stars/" />
+  <link rel="prev" href="https://zuolizhu.io/2018/shooting_stars/" />
+  
+  <link rel="canonical" href="https://zuolizhu.io/2019/face_detection_webapp/" />
   <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -23,10 +23,10 @@
   <title>
        
        
-           Shooting Stars | Zuoli Zhu
+           Face Detection Webapp | Zuoli Zhu
        
   </title>
-  <meta name="title" content="Shooting Stars | Zuoli Zhu">
+  <meta name="title" content="Face Detection Webapp | Zuoli Zhu">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,21 +45,25 @@
          "@id": "https://zuolizhu.io/"
     },
     "articleSection" : "posts",
-    "name" : "Shooting Stars",
-    "headline" : "Shooting Stars",
-    "description" : "",
+    "name" : "Face Detection Webapp",
+    "headline" : "Face Detection Webapp",
+    "description" : "A simple web application using the Clarifai API to detect faces on a giving image url. Using the Express.js backend server to communicate with the PostgreSQL database.
+Screenshots: Full Project Code: Front end github link
+Back end github link
+Instruction to run this app To run this web app on your local machine, please make sure the configuration below matches your local setting:
+Create the database with users table and login table, I used PostgreSQL:",
     "inLanguage" : "en-us",
     "author" : "Zuoli Zhu",
     "creator" : "Zuoli Zhu",
     "publisher": "Zuoli Zhu",
     "accountablePerson" : "Zuoli Zhu",
     "copyrightHolder" : "Zuoli Zhu",
-    "copyrightYear" : "2018",
-    "datePublished": "2018-12-25 23:12:20 -0500 EST",
-    "dateModified" : "2018-12-25 23:12:20 -0500 EST",
-    "url" : "https://zuolizhu.io/2018/shooting_stars/",
-    "wordCount" : "0",
-    "keywords" : [ "Photography", "Zuoli Zhu"]
+    "copyrightYear" : "2019",
+    "datePublished": "2019-01-05 22:47:26 -0500 EST",
+    "dateModified" : "2019-01-05 22:47:26 -0500 EST",
+    "url" : "https://zuolizhu.io/2019/face_detection_webapp/",
+    "wordCount" : "176",
+    "keywords" : [ "React","JavaScript","PostgreSQL","Clarifai", "Zuoli Zhu"]
 }
 </script>
 
@@ -117,16 +121,16 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Shooting Stars</h1>
+        <h1 class="post-title" itemprop="name headline">Face Detection Webapp</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://zuolizhu.io/" rel="author">Zuoli Zhu</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2018-12-25 itemprop="datePublished">December 25, 2018</time>
+                on <time datetime=2019-01-05 itemprop="datePublished">January 5, 2019</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://zuolizhu.io/categories/photography/"> Photography </a>
+                        <a href="https://zuolizhu.io/categories/software-development/"> Software Development </a>
                         
                 </span>
         </div>
@@ -149,13 +153,71 @@
           
           
 
-          <p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/photography/shootingstars/1.JPG" alt="1" class="lazyload"><figcaption class="image-caption">1</figcaption></figure>
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/photography/shootingstars/2.JPG" alt="2" class="lazyload"><figcaption class="image-caption">2</figcaption></figure>
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/photography/shootingstars/3.JPG" alt="3" class="lazyload"><figcaption class="image-caption">3</figcaption></figure>
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/photography/shootingstars/4.JPG" alt="4" class="lazyload"><figcaption class="image-caption">4</figcaption></figure>
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/photography/shootingstars/5.JPG" alt="5" class="lazyload"><figcaption class="image-caption">5</figcaption></figure>
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/photography/shootingstars/6.JPG" alt="6" class="lazyload"><figcaption class="image-caption">6</figcaption></figure>
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/photography/shootingstars/7.JPG" alt="7" class="lazyload"><figcaption class="image-caption">7</figcaption></figure></p>
+          
+
+<p>A simple web application using the <a href="https://clarifai.com/">Clarifai API</a> to detect faces on a giving image url. Using the <code>Express.js</code> backend server to communicate with the <code>PostgreSQL</code> database.</p>
+
+<h3 id="screenshots">Screenshots:</h3>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/dev/react/facedetector/mainpage.png" alt="homepage" class="lazyload"><figcaption class="image-caption">homepage</figcaption></figure></p>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/dev/react/facedetector/singlefaceDetection.png" alt="singleface" class="lazyload"><figcaption class="image-caption">singleface</figcaption></figure></p>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/dev/react/facedetector/multifaceDetection.png" alt="multifaces" class="lazyload"><figcaption class="image-caption">multifaces</figcaption></figure></p>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/dev/react/facedetector/signup.png" alt="signup" class="lazyload"><figcaption class="image-caption">signup</figcaption></figure></p>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/dev/react/facedetector/login.png" alt="login" class="lazyload"><figcaption class="image-caption">login</figcaption></figure></p>
+
+<h3 id="full-project-code">Full Project Code:</h3>
+
+<p><a href="https://github.com/zuolizhu/ReactProjects/tree/master/facedetector">Front end github link</a></p>
+
+<p><a href="https://github.com/zuolizhu/ReactProjects/tree/master/facedetector-api">Back end github link</a></p>
+
+<h3 id="instruction-to-run-this-app">Instruction to run this app</h3>
+
+<p>To run this web app on your local machine, please make sure the configuration below matches your local setting:</p>
+
+<p>Create the database with <code>users</code> table and <code>login</code> table, I used <code>PostgreSQL</code>:</p>
+
+<pre><code class="language-sql">CREATE TABLE users (
+    id serial PRIMARY KEY,
+    name VARCHAR(100),
+    email text UNIQUE NOT NULL,
+    entries BIGINT DEFAULT 0,
+    joined TIMESTAMP NOT NULL
+);
+</code></pre>
+
+<pre><code class="language-sql">CREATE TABLE login (
+    id serial PRIMARY KEY,
+    hash VARCHAR(100) NOT NULL,
+    email text UNIQUE NOT NULL
+);
+</code></pre>
+
+<p>To connect backend server with the database:</p>
+
+<pre><code class="language-javascript">const pgdatabase = knex({
+	client: 'pg',
+	connection: {
+		host: '127.0.0.1',
+		user: '{your database username}',
+		password: '{your database password}',
+		database: '{your database name}'
+	}
+});
+</code></pre>
+
+<p>Then change the API key setting in backend code <code>image.js</code>:</p>
+
+<pre><code class="language-javascript">const app = new Clarifai.App({
+	apiKey: '{your API key}'
+});
+</code></pre>
+
+<p>Finally, <code>npm start</code> and check your browser 🎉!</p>
 
     </div>
 
@@ -170,7 +232,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://zuolizhu.io/2018/shooting_stars/>https://zuolizhu.io/2018/shooting_stars/</span>
+                    <a href=https://zuolizhu.io/2019/face_detection_webapp/>https://zuolizhu.io/2019/face_detection_webapp/</span>
             </p>
             
             
@@ -182,8 +244,17 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://zuolizhu.io/tags/photography/">
-                    #Photography</a></span>
+            <span class="tag"><a href="https://zuolizhu.io/tags/react/">
+                    #React</a></span>
+            
+            <span class="tag"><a href="https://zuolizhu.io/tags/javascript/">
+                    #JavaScript</a></span>
+            
+            <span class="tag"><a href="https://zuolizhu.io/tags/postgresql/">
+                    #PostgreSQL</a></span>
+            
+            <span class="tag"><a href="https://zuolizhu.io/tags/clarifai/">
+                    #Clarifai</a></span>
             
             </section>
         
@@ -195,10 +266,8 @@
 
     <div class="post-nav">
         
-        <a href="https://zuolizhu.io/2018/sports_watch/" class="prev" rel="prev" title="Sports Watch"><i class="iconfont icon-left"></i>&nbsp;Sports Watch</a>
+        <a href="https://zuolizhu.io/2018/shooting_stars/" class="prev" rel="prev" title="Shooting Stars"><i class="iconfont icon-left"></i>&nbsp;Shooting Stars</a>
          
-        
-        <a href="https://zuolizhu.io/2019/face_detection_webapp/" class="next" rel="next" title="Face Detection Webapp">Face Detection Webapp&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

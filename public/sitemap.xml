@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
+      <loc>https://zuolizhu.io/2019/face_detection_webapp/</loc>
+      
+      <lastmod>2019-01-05T22:47:26-05:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>https://zuolizhu.io/2018/shooting_stars/</loc>
       
       <lastmod>2018-12-25T23:12:20-05:00</lastmod>
@@ -113,6 +123,18 @@
     </url>
   
     <url>
+      <loc>https://zuolizhu.io/tags/clarifai/</loc>
+      
+      <lastmod>2019-01-05T22:47:26-05:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
       <loc>https://zuolizhu.io/tags/cms/</loc>
       
       <lastmod>2018-12-25T22:40:31-05:00</lastmod>
@@ -175,7 +197,7 @@
     <url>
       <loc>https://zuolizhu.io/tags/javascript/</loc>
       
-      <lastmod>2018-12-25T22:29:45-05:00</lastmod>
+      <lastmod>2019-01-05T22:47:26-05:00</lastmod>
       
       
       
@@ -209,18 +231,6 @@
     </url>
   
     <url>
-      <loc>https://zuolizhu.io/tags/photography/</loc>
-      
-      <lastmod>2018-12-25T23:12:20-05:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
       <loc>https://zuolizhu.io/categories/photography/</loc>
       
       <lastmod>2018-12-25T23:12:20-05:00</lastmod>
@@ -233,7 +243,7 @@
     </url>
   
     <url>
-      <loc>https://zuolizhu.io/posts/</loc>
+      <loc>https://zuolizhu.io/tags/photography/</loc>
       
       <lastmod>2018-12-25T23:12:20-05:00</lastmod>
       
@@ -245,9 +255,33 @@
     </url>
   
     <url>
+      <loc>https://zuolizhu.io/tags/postgresql/</loc>
+      
+      <lastmod>2019-01-05T22:47:26-05:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zuolizhu.io/posts/</loc>
+      
+      <lastmod>2019-01-05T22:47:26-05:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
       <loc>https://zuolizhu.io/tags/react/</loc>
       
-      <lastmod>2018-12-25T22:29:45-05:00</lastmod>
+      <lastmod>2019-01-05T22:47:26-05:00</lastmod>
       
       
       
@@ -271,7 +305,7 @@
     <url>
       <loc>https://zuolizhu.io/categories/software-development/</loc>
       
-      <lastmod>2018-12-25T22:59:35-05:00</lastmod>
+      <lastmod>2019-01-05T22:47:26-05:00</lastmod>
       
       
       
@@ -295,7 +329,7 @@
     <url>
       <loc>https://zuolizhu.io/tags/</loc>
       
-      <lastmod>2018-12-25T22:40:31-05:00</lastmod>
+      <lastmod>2019-01-05T22:47:26-05:00</lastmod>
       
       
       
@@ -343,7 +377,7 @@
     <url>
       <loc>https://zuolizhu.io/</loc>
       
-      <lastmod>2018-12-25T23:12:20-05:00</lastmod>
+      <lastmod>2019-01-05T22:47:26-05:00</lastmod>
       
       
       

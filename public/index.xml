@@ -6,8 +6,82 @@
     <description>Recent content in Zuoli Zhu on Zuoli Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Dec 2018 23:12:20 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jan 2019 22:47:26 -0500</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Face Detection Webapp</title>
+      <link>https://zuolizhu.io/2019/face_detection_webapp/</link>
+      <pubDate>Sat, 05 Jan 2019 22:47:26 -0500</pubDate>
+      
+      <guid>https://zuolizhu.io/2019/face_detection_webapp/</guid>
+      <description>
+
+&lt;p&gt;A simple web application using the &lt;a href=&#34;https://clarifai.com/&#34;&gt;Clarifai API&lt;/a&gt; to detect faces on a giving image url. Using the &lt;code&gt;Express.js&lt;/code&gt; backend server to communicate with the &lt;code&gt;PostgreSQL&lt;/code&gt; database.&lt;/p&gt;
+
+&lt;h3 id=&#34;screenshots&#34;&gt;Screenshots:&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/react/facedetector/mainpage.png&#34; alt=&#34;homepage&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/react/facedetector/singlefaceDetection.png&#34; alt=&#34;singleface&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/react/facedetector/multifaceDetection.png&#34; alt=&#34;multifaces&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/react/facedetector/signup.png&#34; alt=&#34;signup&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/react/facedetector/login.png&#34; alt=&#34;login&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;full-project-code&#34;&gt;Full Project Code:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/zuolizhu/ReactProjects/tree/master/facedetector&#34;&gt;Front end github link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/zuolizhu/ReactProjects/tree/master/facedetector-api&#34;&gt;Back end github link&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;instruction-to-run-this-app&#34;&gt;Instruction to run this app&lt;/h3&gt;
+
+&lt;p&gt;To run this web app on your local machine, please make sure the configuration below matches your local setting:&lt;/p&gt;
+
+&lt;p&gt;Create the database with &lt;code&gt;users&lt;/code&gt; table and &lt;code&gt;login&lt;/code&gt; table, I used &lt;code&gt;PostgreSQL&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;CREATE TABLE users (
+    id serial PRIMARY KEY,
+    name VARCHAR(100),
+    email text UNIQUE NOT NULL,
+    entries BIGINT DEFAULT 0,
+    joined TIMESTAMP NOT NULL
+);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;CREATE TABLE login (
+    id serial PRIMARY KEY,
+    hash VARCHAR(100) NOT NULL,
+    email text UNIQUE NOT NULL
+);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To connect backend server with the database:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;const pgdatabase = knex({
+	client: &#39;pg&#39;,
+	connection: {
+		host: &#39;127.0.0.1&#39;,
+		user: &#39;{your database username}&#39;,
+		password: &#39;{your database password}&#39;,
+		database: &#39;{your database name}&#39;
+	}
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then change the API key setting in backend code &lt;code&gt;image.js&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;const app = new Clarifai.App({
+	apiKey: &#39;{your API key}&#39;
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finally, &lt;code&gt;npm start&lt;/code&gt; and check your browser 🎉!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Shooting Stars</title>

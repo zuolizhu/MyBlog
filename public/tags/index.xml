@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Zuoli Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Dec 2018 22:40:31 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jan 2019 22:47:26 -0500</lastBuildDate>
     
 	<atom:link href="https://zuolizhu.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Clarifai</title>
+      <link>https://zuolizhu.io/tags/clarifai/</link>
+      <pubDate>Sat, 05 Jan 2019 22:47:26 -0500</pubDate>
+      
+      <guid>https://zuolizhu.io/tags/clarifai/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cms</title>
@@ -50,7 +59,7 @@
     <item>
       <title>Javascript</title>
       <link>https://zuolizhu.io/tags/javascript/</link>
-      <pubDate>Tue, 25 Dec 2018 22:29:45 -0500</pubDate>
+      <pubDate>Sat, 05 Jan 2019 22:47:26 -0500</pubDate>
       
       <guid>https://zuolizhu.io/tags/javascript/</guid>
       <description></description>
@@ -84,9 +93,18 @@
     </item>
     
     <item>
+      <title>Postgresql</title>
+      <link>https://zuolizhu.io/tags/postgresql/</link>
+      <pubDate>Sat, 05 Jan 2019 22:47:26 -0500</pubDate>
+      
+      <guid>https://zuolizhu.io/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>React</title>
       <link>https://zuolizhu.io/tags/react/</link>
-      <pubDate>Tue, 25 Dec 2018 22:29:45 -0500</pubDate>
+      <pubDate>Sat, 05 Jan 2019 22:47:26 -0500</pubDate>
       
       <guid>https://zuolizhu.io/tags/react/</guid>
       <description></description>
