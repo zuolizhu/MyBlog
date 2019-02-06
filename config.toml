@@ -42,8 +42,8 @@ googleAnalytics = ""
 
     google_verification = ""
    
-    description = "A lazy guy's blog" # site description
-    keywords = "" # site keywords
+    description = "Writing code, drawing LOGO, taking photo" # site description
+    keywords = "Blog" # site keywords
 
     beian = ""
     baiduAnalytics = ""
@@ -52,3 +52,4 @@ googleAnalytics = ""
     GitHub = "zuolizhu"
     Twitter = "zzzslipper"
     Email   = "zzhu9@albany.edu"
+    LinkedIn = "zuolizhu"
