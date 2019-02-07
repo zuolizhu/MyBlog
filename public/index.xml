@@ -6,8 +6,30 @@
     <description>Recent content in Zuoli Zhu on Zuoli Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jan 2019 22:47:26 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 06 Feb 2019 23:06:27 -0500</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>UI/UX Design Practices Part 1</title>
+      <link>https://zuolizhu.io/2019/ui_ux_design_practices/</link>
+      <pubDate>Wed, 06 Feb 2019 23:06:27 -0500</pubDate>
+      
+      <guid>https://zuolizhu.io/2019/ui_ux_design_practices/</guid>
+      <description>&lt;p&gt;Some practice works made in January.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/uiux/Jan_1.jpg&#34; alt=&#34;Jan_1&#34; /&gt;
+&lt;img src=&#34;https://zuolizhu.io/images/uiux/Jan_2.jpg&#34; alt=&#34;Jan_2&#34; /&gt;
+&lt;img src=&#34;https://zuolizhu.io/images/uiux/Jan_2_animation.gif&#34; alt=&#34;Jan_2_Animation&#34; /&gt;
+&lt;img src=&#34;https://zuolizhu.io/images/uiux/Jan_3.jpg&#34; alt=&#34;Jan_3&#34; /&gt;
+&lt;img src=&#34;https://zuolizhu.io/images/uiux/Jan_4.png&#34; alt=&#34;Jan_4&#34; /&gt;
+&lt;img src=&#34;https://zuolizhu.io/images/uiux/Jan_4_animation.gif&#34; alt=&#34;Jan_4_Animation&#34; /&gt;
+&lt;img src=&#34;https://zuolizhu.io/images/uiux/Jan_5.png&#34; alt=&#34;Jan_5&#34; /&gt;
+&lt;img src=&#34;https://zuolizhu.io/images/uiux/jan_6_animation.gif&#34; alt=&#34;Jan_6_Animation&#34; /&gt;
+&lt;img src=&#34;https://zuolizhu.io/images/uiux/Jan_7.jpg&#34; alt=&#34;Jan_7&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;More coming soon &amp;hellip;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Face Detection Webapp</title>
