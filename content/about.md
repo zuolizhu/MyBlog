@@ -12,4 +12,4 @@ For anyone who found this website and now reading this paragraph, Hi! Nice to me
 
 My name is Connor(Zuoli) Zhu, I am a grad student from University at Albany. I am going to get my master degree of computer science at the end of this year.
 
-Currently I am working as a software developer on campus, and I am actively looking for an internship or part time job in Great New York city. I'm also making tutorials on web development, feel free to subscribe my [YouTube Chanel](<https://www.youtube.com/channel/UCDu3UHUOOxrHdB88u7WCyQQ>) :kissing_smiling_eyes:!
+Currently I am working as a software developer on campus, and I am actively looking for an internship or part time job in Great New York city. I'm also making tutorials on web development, feel free to subscribe my [YouTube Channel](<https://www.youtube.com/channel/UCDu3UHUOOxrHdB88u7WCyQQ>) :kissing_smiling_eyes:!
