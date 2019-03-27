@@ -9,9 +9,9 @@
   <meta name="description" content="Writing code, drawing LOGO, taking photo">
   <meta name="keywords" content="Blog">
   
-  <link rel="prev" href="https://zuolizhu.io/2019/face_detection_webapp/" />
-  <link rel="next" href="https://zuolizhu.io/2019/warehouse-backend/" />
-  <link rel="canonical" href="https://zuolizhu.io/2019/ui_ux_design_practices/" />
+  <link rel="prev" href="https://zuolizhu.io/2019/ui_ux_design_practices/" />
+  
+  <link rel="canonical" href="https://zuolizhu.io/2019/warehouse-backend/" />
   <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -23,10 +23,10 @@
   <title>
        
        
-           UI/UX Design Practices Part 1 | Zuoli Zhu
+           Warehouse Backend | Zuoli Zhu
        
   </title>
-  <meta name="title" content="UI/UX Design Practices Part 1 | Zuoli Zhu">
+  <meta name="title" content="Warehouse Backend | Zuoli Zhu">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -45,10 +45,11 @@
          "@id": "https://zuolizhu.io/"
     },
     "articleSection" : "posts",
-    "name" : "UI/UX Design Practices Part 1",
-    "headline" : "UI/UX Design Practices Part 1",
-    "description" : "Some practice works made in January.
-More coming soon &hellip;",
+    "name" : "Warehouse Backend",
+    "headline" : "Warehouse Backend",
+    "description" : "A simple CRUD rest API for warehouse application, built with Nest framework, and working with cloud mongoDB.
+Instruction to run this app $ npm install  Database Configuration Change the src/config/keys.ts file to match your database setting:
+export default { mongoURI: '' }  Running this backend server $ npm run start:dev  Testing with Postman To add a product into the database, send a post request to http://localhost:3000/products/ with data below:",
     "inLanguage" : "en-us",
     "author" : "Zuoli Zhu",
     "creator" : "Zuoli Zhu",
@@ -56,11 +57,11 @@ More coming soon &hellip;",
     "accountablePerson" : "Zuoli Zhu",
     "copyrightHolder" : "Zuoli Zhu",
     "copyrightYear" : "2019",
-    "datePublished": "2019-02-06 23:06:27 -0500 EST",
-    "dateModified" : "2019-02-06 23:06:27 -0500 EST",
-    "url" : "https://zuolizhu.io/2019/ui_ux_design_practices/",
-    "wordCount" : "10",
-    "keywords" : [ "Design", "Zuoli Zhu"]
+    "datePublished": "2019-03-26 22:42:44 -0400 EDT",
+    "dateModified" : "2019-03-26 22:42:44 -0400 EDT",
+    "url" : "https://zuolizhu.io/2019/warehouse-backend/",
+    "wordCount" : "156",
+    "keywords" : [ "NestJS","JavaScript","Backend","RestAPI", "Zuoli Zhu"]
 }
 </script>
 
@@ -118,16 +119,16 @@ More coming soon &hellip;",
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">UI/UX Design Practices Part 1</h1>
+        <h1 class="post-title" itemprop="name headline">Warehouse Backend</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://zuolizhu.io/" rel="author">Zuoli Zhu</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2019-02-06 itemprop="datePublished">February 6, 2019</time>
+                on <time datetime=2019-03-26 itemprop="datePublished">March 26, 2019</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://zuolizhu.io/categories/graphical-design/"> Graphical Design </a>
+                        <a href="https://zuolizhu.io/categories/software-development/"> Software Development </a>
                         
                 </span>
         </div>
@@ -150,19 +151,60 @@ More coming soon &hellip;",
           
           
 
-          <p>Some practice works made in January.</p>
+          
 
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/uiux/Jan_1.jpg" alt="Jan_1" class="lazyload"><figcaption class="image-caption">Jan_1</figcaption></figure>
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/uiux/Jan_2.jpg" alt="Jan_2" class="lazyload"><figcaption class="image-caption">Jan_2</figcaption></figure>
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/uiux/Jan_2_animation.gif" alt="Jan_2_Animation" class="lazyload"><figcaption class="image-caption">Jan_2_Animation</figcaption></figure>
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/uiux/Jan_3.jpg" alt="Jan_3" class="lazyload"><figcaption class="image-caption">Jan_3</figcaption></figure>
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/uiux/Jan_4.png" alt="Jan_4" class="lazyload"><figcaption class="image-caption">Jan_4</figcaption></figure>
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/uiux/Jan_4_animation.gif" alt="Jan_4_Animation" class="lazyload"><figcaption class="image-caption">Jan_4_Animation</figcaption></figure>
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/uiux/Jan_5.png" alt="Jan_5" class="lazyload"><figcaption class="image-caption">Jan_5</figcaption></figure>
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/uiux/jan_6_animation.gif" alt="Jan_6_Animation" class="lazyload"><figcaption class="image-caption">Jan_6_Animation</figcaption></figure>
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/uiux/Jan_7.jpg" alt="Jan_7" class="lazyload"><figcaption class="image-caption">Jan_7</figcaption></figure></p>
+<p>A simple CRUD rest API for warehouse application, built with <a href="https://github.com/nestjs/nest">Nest</a> framework, and working with cloud mongoDB.</p>
 
-<p>More coming soon &hellip;</p>
+<h3 id="instruction-to-run-this-app">Instruction to run this app</h3>
+
+<pre><code class="language-bash">$ npm install
+</code></pre>
+
+<h3 id="database-configuration">Database Configuration</h3>
+
+<p>Change the <code>src/config/keys.ts</code> file to match your database setting:</p>
+
+<pre><code class="language-typescript">export default { mongoURI: '' }
+</code></pre>
+
+<h3 id="running-this-backend-server">Running this backend server</h3>
+
+<pre><code class="language-bash">$ npm run start:dev
+</code></pre>
+
+<h3 id="testing-with-postman">Testing with Postman</h3>
+
+<p>To add a product into the database, send a <code>post</code> request to <code>http://localhost:3000/products/</code> with data below:</p>
+
+<pre><code class="language-json">{
+   &quot;productName&quot;: &quot;Wood Mouse Pad&quot;,
+   &quot;description&quot;: &quot;Comfortable maple wood made mouse pad&quot;,
+   &quot;quantity&quot;: 70
+}
+</code></pre>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/dev/warehouse/post.gif" alt="Add A Product" class="lazyload"><figcaption class="image-caption">Add A Product</figcaption></figure></p>
+
+<p>To update a product information, for example, to update the quantity of the pillow with its id <code>5c9adcf4431cb3b3e07feaf3</code>, just send a <code>put</code> request to <code>http://localhost:3000/products/5c9adcf4431cb3b3e07feaf3</code> with data:</p>
+
+<pre><code class="language-json">{
+   &quot;quantity&quot;: 77
+}
+</code></pre>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/dev/warehouse/update.gif" alt="Update A Product Info" class="lazyload"><figcaption class="image-caption">Update A Product Info</figcaption></figure></p>
+
+<p>To verify if the quantity of the pillow was updated, send a <code>get</code> request with the product id: <code>http://localhost:3000/products/5c9adcf4431cb3b3e07feaf3</code>.</p>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/dev/warehouse/singleGet.gif" alt="Get A Product Info" class="lazyload"><figcaption class="image-caption">Get A Product Info</figcaption></figure></p>
+
+<p>To remove a product from the database, just send a <code>delete</code> request with the product id: <code>http://localhost:3000/products/5c9adcf4431cb3b3e07feaf3</code>.</p>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/dev/warehouse/delete.gif" alt="Remove A Product" class="lazyload"><figcaption class="image-caption">Remove A Product</figcaption></figure></p>
+
+<h3 id="full-project-code">Full Project Code:</h3>
+
+<p><a href="https://github.com/zuolizhu/warehouse-backend">GitHub Link</a></p>
 
     </div>
 
@@ -177,7 +219,7 @@ More coming soon &hellip;",
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://zuolizhu.io/2019/ui_ux_design_practices/>https://zuolizhu.io/2019/ui_ux_design_practices/</span>
+                    <a href=https://zuolizhu.io/2019/warehouse-backend/>https://zuolizhu.io/2019/warehouse-backend/</span>
             </p>
             
             
@@ -189,8 +231,17 @@ More coming soon &hellip;",
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://zuolizhu.io/tags/design/">
-                    #Design</a></span>
+            <span class="tag"><a href="https://zuolizhu.io/tags/nestjs/">
+                    #NestJS</a></span>
+            
+            <span class="tag"><a href="https://zuolizhu.io/tags/javascript/">
+                    #JavaScript</a></span>
+            
+            <span class="tag"><a href="https://zuolizhu.io/tags/backend/">
+                    #Backend</a></span>
+            
+            <span class="tag"><a href="https://zuolizhu.io/tags/restapi/">
+                    #RestAPI</a></span>
             
             </section>
         
@@ -202,10 +253,8 @@ More coming soon &hellip;",
 
     <div class="post-nav">
         
-        <a href="https://zuolizhu.io/2019/face_detection_webapp/" class="prev" rel="prev" title="Face Detection Webapp"><i class="iconfont icon-left"></i>&nbsp;Face Detection Webapp</a>
+        <a href="https://zuolizhu.io/2019/ui_ux_design_practices/" class="prev" rel="prev" title="UI/UX Design Practices Part 1"><i class="iconfont icon-left"></i>&nbsp;UI/UX Design Practices Part 1</a>
          
-        
-        <a href="https://zuolizhu.io/2019/warehouse-backend/" class="next" rel="next" title="Warehouse Backend">Warehouse Backend&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backend on Zuoli Zhu</title>
+    <link>https://zuolizhu.io/tags/backend/</link>
+    <description>Recent content in Backend on Zuoli Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Mar 2019 22:42:44 -0400</lastBuildDate>
+    
+	<atom:link href="https://zuolizhu.io/tags/backend/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Warehouse Backend</title>
+      <link>https://zuolizhu.io/2019/warehouse-backend/</link>
+      <pubDate>Tue, 26 Mar 2019 22:42:44 -0400</pubDate>
+      
+      <guid>https://zuolizhu.io/2019/warehouse-backend/</guid>
+      <description>A simple CRUD rest API for warehouse application, built with Nest framework, and working with cloud mongoDB.
+Instruction to run this app $ npm install  Database Configuration Change the src/config/keys.ts file to match your database setting:
+export default { mongoURI: &#39;&#39; }  Running this backend server $ npm run start:dev  Testing with Postman To add a product into the database, send a post request to http://localhost:3000/products/ with data below:</description>
+    </item>
+    
+  </channel>
+</rss>

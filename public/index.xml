@@ -6,8 +6,71 @@
     <description>Recent content in Zuoli Zhu on Zuoli Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Feb 2019 23:06:27 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 26 Mar 2019 22:42:44 -0400</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Warehouse Backend</title>
+      <link>https://zuolizhu.io/2019/warehouse-backend/</link>
+      <pubDate>Tue, 26 Mar 2019 22:42:44 -0400</pubDate>
+      
+      <guid>https://zuolizhu.io/2019/warehouse-backend/</guid>
+      <description>
+
+&lt;p&gt;A simple CRUD rest API for warehouse application, built with &lt;a href=&#34;https://github.com/nestjs/nest&#34;&gt;Nest&lt;/a&gt; framework, and working with cloud mongoDB.&lt;/p&gt;
+
+&lt;h3 id=&#34;instruction-to-run-this-app&#34;&gt;Instruction to run this app&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ npm install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;database-configuration&#34;&gt;Database Configuration&lt;/h3&gt;
+
+&lt;p&gt;Change the &lt;code&gt;src/config/keys.ts&lt;/code&gt; file to match your database setting:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-typescript&#34;&gt;export default { mongoURI: &#39;&#39; }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;running-this-backend-server&#34;&gt;Running this backend server&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ npm run start:dev
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;testing-with-postman&#34;&gt;Testing with Postman&lt;/h3&gt;
+
+&lt;p&gt;To add a product into the database, send a &lt;code&gt;post&lt;/code&gt; request to &lt;code&gt;http://localhost:3000/products/&lt;/code&gt; with data below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+   &amp;quot;productName&amp;quot;: &amp;quot;Wood Mouse Pad&amp;quot;,
+   &amp;quot;description&amp;quot;: &amp;quot;Comfortable maple wood made mouse pad&amp;quot;,
+   &amp;quot;quantity&amp;quot;: 70
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/warehouse/post.gif&#34; alt=&#34;Add A Product&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To update a product information, for example, to update the quantity of the pillow with its id &lt;code&gt;5c9adcf4431cb3b3e07feaf3&lt;/code&gt;, just send a &lt;code&gt;put&lt;/code&gt; request to &lt;code&gt;http://localhost:3000/products/5c9adcf4431cb3b3e07feaf3&lt;/code&gt; with data:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+   &amp;quot;quantity&amp;quot;: 77
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/warehouse/update.gif&#34; alt=&#34;Update A Product Info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To verify if the quantity of the pillow was updated, send a &lt;code&gt;get&lt;/code&gt; request with the product id: &lt;code&gt;http://localhost:3000/products/5c9adcf4431cb3b3e07feaf3&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/warehouse/singleGet.gif&#34; alt=&#34;Get A Product Info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To remove a product from the database, just send a &lt;code&gt;delete&lt;/code&gt; request with the product id: &lt;code&gt;http://localhost:3000/products/5c9adcf4431cb3b3e07feaf3&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zuolizhu.io/images/dev/warehouse/delete.gif&#34; alt=&#34;Remove A Product&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;full-project-code&#34;&gt;Full Project Code:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/zuolizhu/warehouse-backend&#34;&gt;GitHub Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>UI/UX Design Practices Part 1</title>
@@ -326,15 +389,9 @@ userRepo.save(customer);
 
 &lt;p&gt;For anyone who found this website and now reading this paragraph, Hi! Nice to meet you!&lt;/p&gt;
 
-&lt;p&gt;My name is Zuoli Zhu, I am a grad student of computer science major from University at Albany. I will graduate and get my master degree in December 2019.&lt;/p&gt;
+&lt;p&gt;My name is Connor(Zuoli) Zhu, I am a grad student from University at Albany. I am going to get my master degree of computer science at the end of this year.&lt;/p&gt;
 
-&lt;p&gt;I finished my undergraduate in University at Albany with major in computer science and applied mathematics in spring 2018. During my undergrad studying, I learned extensive coding skills with Java, Python, and JavaScript, plus additional self-taught web development skills. I am learning the UI/UX design as well. I was one of the founders of an internatinal students&amp;rsquo; startup company. During the operation of that business, I used a lot of knowledge I learned from school into the real life. Time flew so fast, my friends graduated and they had to leave. And it is time for me to explore a new chance.&lt;/p&gt;
-
-&lt;p&gt;I am an enthusiastic web developer. I love the rise of the JavaScript and the open source community. I am keeping learning new technologies everyday.&lt;/p&gt;
-
-&lt;p&gt;Thank you for your reading! More projects can be found on my GitHub!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/zuolizhu&#34;&gt;MyGithub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Currently I am working as a software developer on campus, and I am actively looking for an internship or part time job in Great New York city. I&amp;rsquo;m also making tutorials on web development, feel free to subscribe my &lt;a href=&#34;https://www.youtube.com/channel/UCDu3UHUOOxrHdB88u7WCyQQ&#34;&gt;YouTube Chanel&lt;/a&gt; 😙!&lt;/p&gt;
 </description>
     </item>
     

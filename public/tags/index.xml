@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Zuoli Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jan 2019 22:47:26 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 26 Mar 2019 22:42:44 -0400</lastBuildDate>
     
 	<atom:link href="https://zuolizhu.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Backend</title>
+      <link>https://zuolizhu.io/tags/backend/</link>
+      <pubDate>Tue, 26 Mar 2019 22:42:44 -0400</pubDate>
+      
+      <guid>https://zuolizhu.io/tags/backend/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Clarifai</title>
@@ -59,7 +68,7 @@
     <item>
       <title>Javascript</title>
       <link>https://zuolizhu.io/tags/javascript/</link>
-      <pubDate>Sat, 05 Jan 2019 22:47:26 -0500</pubDate>
+      <pubDate>Tue, 26 Mar 2019 22:42:44 -0400</pubDate>
       
       <guid>https://zuolizhu.io/tags/javascript/</guid>
       <description></description>
@@ -80,6 +89,15 @@
       <pubDate>Tue, 25 Dec 2018 22:59:35 -0500</pubDate>
       
       <guid>https://zuolizhu.io/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nestjs</title>
+      <link>https://zuolizhu.io/tags/nestjs/</link>
+      <pubDate>Tue, 26 Mar 2019 22:42:44 -0400</pubDate>
+      
+      <guid>https://zuolizhu.io/tags/nestjs/</guid>
       <description></description>
     </item>
     
@@ -107,6 +125,15 @@
       <pubDate>Sat, 05 Jan 2019 22:47:26 -0500</pubDate>
       
       <guid>https://zuolizhu.io/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Restapi</title>
+      <link>https://zuolizhu.io/tags/restapi/</link>
+      <pubDate>Tue, 26 Mar 2019 22:42:44 -0400</pubDate>
+      
+      <guid>https://zuolizhu.io/tags/restapi/</guid>
       <description></description>
     </item>
     
